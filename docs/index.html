@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Vite App</title>
+    <script type="module" crossorigin src="/assets/index-ee8c5c82.js"></script>
+    <link rel="stylesheet" href="/assets/index-c05cced4.css">
+  </head>
+  <body>
+    <header class="titulo">
+      Blackjack
+  </header>
+
+  <div class="row mt-2">
+      <div id="divBotones" class="col text-center">
+          <button id="btnNuevo" class="btn btn-danger">Nuevo Juegos</button>
+          <button id="btnPedir" disabled="disabled" class="btn btn-primary">Pedir Carta</button>
+          <button id="btnDetener" disabled="disabled" class="btn btn-primary">Detener</button>
+      </div>
+  </div>
+
+  <div class="row container">
+      <div class="col">
+          <h1>Jugador 1 - <small>0</small></h1>
+          <div id="jugador-cartas" class="divCartas">
+              <!-- <img  class="cartas" src="assets/cartas/10C.png" alt="" srcset=""> -->
+
+          </div>
+      </div>
+  </div>
+
+
+  <div class="row container mt-2">
+      <div class="col">
+          <h1>Computadora - <small>0</small></h1>
+          <div id="computadora-cartas"  class="divCartas">
+              <!-- <img  class="cartas" src="assets/cartas/10C.png" alt="" srcset=""> -->
+
+          </div>
+      </div>
+  </div>
+
+
+    <div id="app"></div>
+    
+  </body>
+</html>
